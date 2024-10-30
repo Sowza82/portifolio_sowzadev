@@ -1,2 +1,2 @@
-# portif-lio_sowzadev
- Challenge Portfólio Alura+Oracle T07
+# portifÓlio_sowzadev
+ Challenge Portfólio ONE (Alura+Oracle) T07
