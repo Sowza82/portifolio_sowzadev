@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Portfólio de Tatiane Souza, Desenvolvedora Web focada em Front-End e UX/UI.">
+    <meta name="keywords" content="Tatiane Souza, Desenvolvedora Web, Front-End, UX/UI, Portfólio">
+    <meta name="author" content="Tatiane Souza">
+    <title>Tatiane Souza</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="48x48" href="./imgs/favicon (4).ico">
+
+    <!-- Fontes e Estilos -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Tatiane Souza - Desenvolvedora Web</h1>
+            <h2 aria-label="Slogan">"Design e tecnologia que encantam."</h2>
+    
+            <nav role="navigation" aria-label="Menu principal">
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <!-- Seção de Destaque -->
+<main>
+    <section id="hero" class="fade-in">
+        <div class="hero-text">
+            <h1>Olá, eu sou a Tatiane Souza!</h1>
+            <p>Desenvolvedora Front-End com paixão por tecnologia, design e inovação. Em transição de carreira, estou construindo habilidades em Front-End, UX/UI e Cloud para criar experiências web incríveis.</p>
+            <a href="#contact" class="hero-btn">Contato</a>
+        </div>
+        <img src="./imgs/sowza.jpeg" alt="Minha foto" class="profile-pic-large">
+    </section> 
+</main>
+
+
+<!-- Seção Sobre Mim -->
+<section id="about" class="fade-in">
+    <div class="about-text">
+        <h2>Sobre Mim</h2>
+        <p>
+            <strong>Desenvolvedora web</strong> com uma sólida experiência em administração e um foco especial em <strong>Front-End</strong>. Estou sempre me aprimorando em tecnologias modernas e boas práticas de <strong>UX/UI</strong> para criar interfaces acessíveis e intuitivas.
+        </p>
+        <p>
+            Atualmente, também estou estudando <strong>Cloud Computing</strong> e me preparando para certificações, combinando o desenvolvimento front-end com uma base robusta em infraestrutura de nuvem. Acredito que a tecnologia pode transformar ideias em oportunidades. Conheça mais sobre meu trabalho e, caso tenha interesse, <strong>entre em contato!</strong>
+        </p>
+    </div>
+</section>
+
+    <!-- Seção de Habilidades -->
+    <section id="skills" class="fade-in">
+        <h2>Habilidades</h2>
+        
+        <!-- Hard Skills -->
+        <h3>Hard Skills</h3>
+        <div class="skill">
+            <p>HTML</p>
+            <progress value="90" max="100"></progress>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <progress value="85" max="100"></progress>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <progress value="75" max="100"></progress>
+        </div>
+        <div class="skill">
+            <p>React</p>
+            <progress value="70" max="100"></progress>
+        </div>
+        <div class="skill">
+            <p>Bootstrap</p>
+            <progress value="60" max="100"></progress>
+        </div>
+
+        <!-- Soft Skills -->
+        <h3>Soft Skills</h3>
+        <ul class="soft-skills">
+            <li>Comunicação Efetiva</li>
+            <li>Trabalho em Equipe</li>
+            <li>Resolução de Problemas</li>
+            <li>Gerenciamento de Tempo</li>
+            <li>Empatia</li>
+            <li>Adaptabilidade</li>
+        </ul>
+    </section>
+
+    
+   <!-- Seção de Projetos -->
+<section id="projects" class="fade-in">
+    <h2>Projetos</h2>
+    <div class="projects">
+        <div class="project" data-category="frontend">
+            <img src="./imgs/decodificador.png" alt="Interface do aplicativo Decodificador de Texto mostrando opções de criptografia" class="project-image">
+            <div class="project-info">
+                <h3>Decodificador de Texto</h3>
+                <p>Um aplicativo web que permite criptografar e descriptografar textos, utilizando HTML, CSS e JavaScript.</p>
+                <p><strong>Tecnologias Usadas:</strong> HTML, CSS, JavaScript.</p>
+            </div>
+            <a href="https://sowza82.github.io/decodificador_texto-challenge24/" target="_blank" class="btn">Veja o Projeto</a>
+        </div>
+        <div class="project" data-category="frontend">
+            <img src="./imgs/grafftee.png" alt="Plataforma Grafftee permitindo personalização de camisetas" class="project-image">
+            <div class="project-info">
+                <h3>Grafftee</h3>
+                <p>Uma plataforma de design que permite aos usuários criar e personalizar camisetas com estampas únicas, promovendo a expressão pessoal.</p>
+                <p><strong>Tecnologias Usadas:</strong> HTML, CSS, JavaScript, e frameworks de design.</p>
+            </div>
+            <a href="https://sowza82.github.io/grafftee_site/" target="_blank" class="btn">Veja o Projeto</a>
+        </div>
+        <div class="project" data-category="frontend">
+            <img src="./imgs/IAvisual.png" alt="Capa do eBook IAVisual" class="project-image">
+            <div class="project-info">
+                <h3>IAVisual</h3>
+                <p>Um eBook interativo que apresenta um jogo gerado por IA para desafiar os usuários a identificar se alguém é "natty" ou "fake natty".</p>
+                <p><strong>Tecnologias Usadas:</strong> HTML, CSS, JavaScript, e frameworks de design.</p>
+            </div>
+            <a href="https://sowza82.github.io/Ebook_IAvisual/" target="_blank" class="btn">Veja o Projeto</a>
+        </div>
+        
+        
+        <div class="project" data-category="frontend">
+            <img src="./imgs/Cozinha 20.png" alt="Aplicação Cozinha 20 para compartilhar receitas" class="project-image">
+            <div class="project-info">
+                <h3>Cozinha 20</h3>
+                <p>Uma aplicação interativa que permite aos usuários compartilhar e descobrir receitas, focando em um design intuitivo e experiência do usuário.</p>
+                <p><strong>Tecnologias Usadas:</strong> HTML, CSS, JavaScript.</p>
+            </div>
+            <a href="https://sowza82.github.io/site-Front-End20/" target="_blank" class="btn">Veja o Projeto</a>
+        </div>
+        <div class="project" data-category="frontend">
+            <img src="./imgs/Dicionário de mulheres  negras.png" alt="Imagem do projeto Dicionário das Mulheres Negras" class="project-image">
+            <div class="project-info">
+                <h3>Dicionário das Mulheres Negras</h3>
+                <p>Plataforma que celebra as histórias e conquistas de mulheres negras, promovendo representatividade e educação sobre figuras inspiradoras.</p>
+                <p><strong>Tecnologias Usadas:</strong> HTML, CSS, JavaScript, frameworks de design.</p>
+            </div>
+            <a href="https://sowza82.github.io/programaria_siteresponsivo24/" target="_blank" class="btn">Veja o Projeto</a>
+        </div>  
+        <div class="project" data-category="frontend">
+            <img src="./imgs/Fênix confeitaria.png" alt="Loja virtual de doces Confeitaria Fênix" class="project-image">
+            <div class="project-info">
+                <h3>Confeitaria Fênix</h3>
+                <p>Uma loja virtual de doces e confeitos, oferecendo um layout atraente e funcional para a compra online de produtos.</p>
+                <p><strong>Tecnologias Usadas:</strong> HTML, CSS, JavaScript, e plataformas de e-commerce.</p>
+            </div>
+            <a href="https://sowza82.github.io/fenixpf-elasnatech23/" target="_blank" class="btn">Veja o Projeto</a>
+        </div>
+    </div>          
+    </div>
+</section>
+
+     
+
+  <!-- Seção de Contato -->
+  <section id="contact" class="fade-in">
+    <h2>Contato</h2>
+    <form action="#">
+        <input type="text" name="name" placeholder="Seu nome">
+        <input type="email" name="email" placeholder="Seu e-mail">
+        <textarea name="message" placeholder="Sua mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+    <footer>
+        
+        <p>Conecte-se comigo:</p>
+        <a href="https://www.linkedin.com/in/sowzadev-tatiane-souza/" target="_blank" aria-label="LinkedIn de Tatiane Souza">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Sowza82" target="_blank" aria-label="github de Tatiane Souza">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/tathysowza_82/" target="_blank" aria-label="instagram de Tatiane Souza">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/5571987115621" target="_blank" aria-label="whatsapp de Tatiane Souza">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <p>&copy; 2024 Tatiane Souza. Todos os direitos reservados.</p>
+             
+    </footer>
+
+    
+        <script src="script.js"></script>
+        
+ <!-- Botão Voltar ao Topo -->
+    <button id="scrollToTop" style="display: none;">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+       
+
+</body>
+</html>
