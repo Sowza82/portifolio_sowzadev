@@ -1,9 +1,8 @@
-# portifólio_sowzadev
  Challenge Portfólio ONE (Alura+Oracle) T07
 
  # Desafio de Portfólio - Formação Front-End | ONE (Oracle + Alura)
 
-Este portfólio foi desenvolvido como projeto final da formação Front-End da ONE (Oracle + Alura) e representa minha trajetória e evolução na área de desenvolvimento web. Aqui, reúno informações sobre minha experiência, projetos realizados, habilidades técnicas e soft skills que venho desenvolvendo. Além disso, inclui um formulário para contato e meus links profissionais, incentivando conexões com outros profissionais e oportunidades.
+Este portfólio foi desenvolvido como projeto desafio da formação Front-End da ONE (Oracle + Alura) e representa minha trajetória e evolução na área de desenvolvimento web. Aqui, reúno informações sobre minha experiência, projetos realizados, habilidades técnicas e soft skills que venho desenvolvendo. Além disso, inclui um formulário para contato e meus links profissionais, incentivando conexões com outros profissionais e oportunidades.
 
 ## Estrutura do Portfólio
 
