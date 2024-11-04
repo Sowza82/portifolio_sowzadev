@@ -28,7 +28,7 @@ Este portfólio foi desenvolvido como projeto desafio da formação Front-End da
 - **HTML5** e **CSS3**: Estruturação e estilização das páginas, com uso avançado de Flexbox e Grid para layout responsivo.
 - **JavaScript**: Implementação de interatividade e manipulação de DOM.
 - **Git/GitHub**: Controle de versão para gerenciar e organizar o código.
-- **Ferramentas de Design**: Figma/Adobe XD (ou outra que tenha usado) para planejar o design e protótipos do layout.
+- **Ferramentas de Design**: Figma/Canva ( entre outras no processo ) para planejar o design e protótipos do layout.
 - **Boas Práticas de Acessibilidade**: Inclusão de atributos semânticos e ajustes para melhorar a acessibilidade.
 
 ## Desafios e Aprendizados
